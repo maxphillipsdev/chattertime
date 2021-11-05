@@ -5,7 +5,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "dependencies": {
     "next": "12.0.2",
@@ -17,6 +19,7 @@
     "@types/node": "16.11.6",
     "@types/react": "17.0.34",
     "autoprefixer": "^10.4.0",
+    "cypress": "^8.7.0",
     "eslint": "7",
     "eslint-config-next": "^12.0.2",
     "eslint-config-prettier": "^8.3.0",
