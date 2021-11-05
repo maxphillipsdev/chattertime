@@ -6,3 +6,6 @@ describe("Test Homepage", () => {
     cy.get("h1").contains("Welcome to Chatterti.me");
   });
 });
+
+const exports = {};
+export default exports;
