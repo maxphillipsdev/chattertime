@@ -7,7 +7,7 @@ import "gun/sea";
 import "gun/axe";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const db = GUN(`${process.env.GUN_URL}/gun`);
+  const db = GUN("ws://localhost:5000/gun");
 
   return (
     <>
